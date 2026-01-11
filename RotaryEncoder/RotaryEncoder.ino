@@ -8,7 +8,7 @@ const float PPR = 360.0;
 
 volatile long pulseCount = 0;
 unsigned long lastTime = 0;
-const int interval = 1000; 
+const int interval = 700; 
 
 void countPulse() {
   pulseCount++;
